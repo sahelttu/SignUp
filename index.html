@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="signup-layout">
+        <div class="signup-left">
+            <div class="signup-logo">
+                <img class="signup-icon" src="./assets/images/newspaper-folded.png" alt="newspaper icon">
+                <h1><span class="h1letter">B</span>
+                    <span class="h1letter">I</span>
+                    <span class="h1letter">G</span>
+                
+                    <span class="h1letter">N</span>
+                    <span class="h1letter">E</span>
+                    <span class="h1letter">W</span>
+                    <span class="h1letter">S</span>
+                </h1></div>
+            <span class="image-credit">Photo by <a href="https://unsplash.com/@iammrcup?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mr Cup / Fabien Barral</a> on <a href="https://unsplash.com/photos/bundle-of-newspaper-on-table-Mwuod2cm8g4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </span>
+            <a class="logo-credit" href="https://www.flaticon.com/free-icons/paper" title="paper icons">Paper icons created by Freepik - Flaticon</a>
+        </div>
+        <div class="signup-right">
+            <div class="signup-intro">
+                <p>Have you heard the Big News? The latest news for you - sports, politics, entertainment, you name it! Subscribe to the newsletter to stay in the know!</p></div>
+            <div class="signup-form">
+                <p>Let's go!</p>
+                <div class="form">
+                    <div class="form-item">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" name="firstname" id="firstname" required>
+                    </div>
+
+                    <div class="form-item">
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" name="lastname" id="lastname" required>                        
+                    </div>                    
+                    <div class="form-item">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>                    
+                    </div>
+                    <div class="form-item">
+                    <label for="phonenumber">PHONE NUMBER</label>
+                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phonenumber" id="phonenumber" required>                        
+                    </div>
+                    <div class="form-item">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required>                    
+                    </div>
+                    <div class="form-item">
+                    <label for="passwdconfirm">CONFIRM PASSWORD</label>
+                    <input type="password" name="passwdconfirm" id="passwdconfirm" required>                        
+                    </div>                                        
+                </div>
+            </div>
+            <div class="signup-submit">
+                <input class="submit-btn" type="submit" value="Create Account">
+                <p>Already have an account? <a href="">Log in</a>!</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
